@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import AppNavigator from './src/AppNavigator';
+import AppNavigator from './src/screens/AppNavigator';
 
 export default function App() {
   return (
@@ -9,4 +9,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
