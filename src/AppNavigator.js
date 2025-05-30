@@ -6,7 +6,6 @@ import Homescreen from './screens/Homescreen';
 import Triviascreen from './screens/Triviascreen';
 import Userscreen from './screens/Userscreen';
 import Listarpreguntas from './screens/Listarpreguntas';
-import Userscreen from './screens/Userscreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,7 +18,6 @@ export default function AppNavigator() {
       <Stack.Screen name="Trivia" component={Triviascreen} />
       <Stack.Screen name="User" component={Userscreen} />
       <Stack.Screen name="Lista" component={Listarpreguntas} />
-      <Stack.Screen name="User" component={Userscreen} />
       <Stack.Screen name="Lista" component={Listarpreguntas} />
     </Stack.Navigator>
   );
